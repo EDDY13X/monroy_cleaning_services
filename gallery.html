@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galería | Monroy Cleaning</title>
+  <meta name="description" content="Proyectos recientes de limpieza empresarial: oficinas, clínicas, escuelas y comercios.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+  <header class="main-header">
+    <nav class="navbar container">
+      <a class="logo" href="index.html"><i class="fa-solid fa-sparkles"></i> Monroy Cleaning</a>
+      <button class="menu-toggle" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="services.html">Servicios</a></li>
+        <li><a class="active" href="gallery.html">Galería</a></li>
+        <li><a href="about.html">Sobre Nosotros</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero hero-gallery">
+    <div class="hero-inner container">
+      <div class="kicker">Galería</div>
+      <h1>Nuestro trabajo habla por nosotros</h1>
+      <p>Una muestra de proyectos en distintas industrias.</p>
+    </div>
+  </section>
+
+  <main>
+    <section class="container" id="gallery-filter">
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="offices">Oficinas</button>
+        <button class="filter-btn" data-filter="hospitals">Hospitales</button>
+        <button class="filter-btn" data-filter="schools">Escuelas</button>
+        <button class="filter-btn" data-filter="commercial">Comercial</button>
+      </div>
+    </section>
+
+    <section class="container" id="gallery">
+      <div class="gallery-grid">
+        <div class="gallery-item offices">
+          <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=1200&auto=format&fit=crop" alt="Oficinas">
+          <div class="gallery-overlay"><h4>Oficinas</h4><p>Miami</p></div>
+        </div>
+        <div class="gallery-item hospitals">
+          <img src="https://images.unsplash.com/photo-1584433144859-1fc3ab64a957?q=80&w=1200&auto=format&fit=crop" alt="Hospital">
+          <div class="gallery-overlay"><h4>Hospital</h4><p>Orlando</p></div>
+        </div>
+        <div class="gallery-item schools">
+          <img src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?q=80&w=1200&auto=format&fit=crop" alt="Escuela">
+          <div class="gallery-overlay"><h4>Escuela</h4><p>Tampa</p></div>
+        </div>
+        <div class="gallery-item commercial">
+          <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1200&auto=format&fit=crop" alt="Comercial">
+          <div class="gallery-overlay"><h4>Comercial</h4><p>Jacksonville</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="gallery-cta" style="text-align:center">
+      <div class="hero-inner" style="color:#0f172a">
+        <h2>¿Necesitas limpieza profesional?</h2>
+        <p class="section-description">Cuéntanos de tu proyecto y recibe una propuesta clara y directa.</p>
+        <a class="btn btn-primary" href="contact.html">Solicitar cotización</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="footer-grid container">
+      <div><h4>Monroy Cleaning Services</h4><p>Socio de confianza en limpieza empresarial en Florida.</p></div>
+      <div><h4>Enlaces</h4><ul><li><a href="index.html">Inicio</a></li><li><a href="services.html">Servicios</a></li><li><a href="gallery.html">Galería</a></li><li><a href="about.html">Sobre Nosotros</a></li><li><a href="contact.html">Contacto</a></li></ul></div>
+      <div><h4>Contacto</h4><p><i class="fa-solid fa-envelope"></i> <a href="mailto:info@monroycleaning.com">info@monroycleaning.com</a></p><p><i class="fa-solid fa-phone"></i> <a href="tel:5551234567">(555) 123-4567</a></p><p><i class="fa-solid fa-map-pin"></i> Florida, EE. UU.</p></div>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2025 Monroy Cleaning Services. Todos los derechos reservados.</p></div>
+  </footer>
+
+  <div class="scroll-to-top"><i class="fa-solid fa-arrow-up"></i></div>
+  <script src="js/main.js"></script>
+</body>
+</html>
